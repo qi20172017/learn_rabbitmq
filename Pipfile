@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 asyncio = "*"
 requests = "*"
+pytest = "*"
+connect = "*"
+celery = "*"
 
 [requires]
 python_version = "3.7"
