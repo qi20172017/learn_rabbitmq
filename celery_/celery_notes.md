@@ -60,13 +60,15 @@ mkvirtualenv xxxx
 
 ### pipenv
 
-进入虚拟piping shell
+进入虚拟pipenv shell
 
 退出 exit
 
 pipenv --python 3.5 指定某一python版本创建环境
 
 pipenv install  使用当前系统的python3创建环境
+
+在当前项目路径下，执行此命令，会创建一个新的虚拟环境。进去虚拟环境后pipenv instll --dev安装pipfile中的包
 
 pipenv shell 激活虚拟环境
 
